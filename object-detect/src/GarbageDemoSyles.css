@@ -1,0 +1,25 @@
+.prediction-window {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    z-index: 10;
+}
+
+.video-display-container {
+    margin: 30px auto; /* Centering horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+}
+
+.video-display {
+    display: block;
+    width: 360px;
+    background: linear-gradient(
+        354deg,
+        rgb(12, 12, 12) 0%,
+        rgb(112, 112, 112) 98%
+    );
+}
